@@ -1,0 +1,13 @@
+module(
+    name = "megaboom",
+    version = "0.0.1",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "bazel_orfs", version = "")
+
+git_override(
+    module_name = "bazel_orfs",
+    commit = "e8f5b2f33050f9277655abf4d1f09b91f6e759ed",
+    remote = "https://github.com/Pinata-Consulting/bazel-orfs.git",
+)
