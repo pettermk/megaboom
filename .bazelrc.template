@@ -1,0 +1,3 @@
+build --remote_cache=https://storage.googleapis.com/megaboom-bazel-artifacts --credential_helper=%workspace%/cred_helper.py
+# try-import %workspace%/user.bazelrc
+# user: petter@openroad.tools
